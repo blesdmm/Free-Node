@@ -8,44 +8,44 @@ hosts:
   .googleapis.cn: 142.250.196.131
   .google.cn: 142.250.196.131
 proxies:
-  - {name: "[Vless] 乌克兰 V2CROSS.COM", server: 94.131.8.19, port: 45448, type: vless, uuid: 96fcf8cc-535d-46c4-b8f9-76058df48e3b, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: MmEVCRy11fz67vYJQWyA2a_ZPMBzv2le2cus1XSSI0E, short-id: "958639bf55e679" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: "[SS] 非洲地区 V2CROSS.COM", server: 102.129.229.85, port: 31700, type: ss, cipher: chacha20-ietf-poly1305, password: d7zh2lMrXNH5+8+8pKzlxiCU9NN022ih+uAyxj5d4qo=, udp: true}
+  - {name: "[SS] 乌克兰 V2CROSS.COM", server: 37.19.198.236, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "[Hysteria2] ️6@oneclickvpnkeys", server: 5.39.254.225, port: 2056, type: hysteria2, password: fe9b17e8-41e1-4d1b-b588-93a23665724f, auth: fe9b17e8-41e1-4d1b-b588-93a23665724f, sni: ld1.mangshe.xyz, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇨🇦 _CA_加拿大", server: 108.181.10.17, port: 80, type: vmess, uuid: 474e8680-701f-11ee-b436-205c6d5f5d78, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: teams.microsoft.com}}, udp: true}
   - {name: "[SS] 🇨🇭 _CH_瑞士", server: 84.17.53.163, port: 80, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
   - {name: "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国", server: 107.167.182.230, port: 80, type: vmess, uuid: efcb7d7c-c582-46f5-eeff-0e553342528d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /tg@hkaa0, headers: {Host: br.gy.youxuan-1.66688888.xyz}}, udp: true}
   - {name: "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国", server: flkf2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: flkf2.shabijichang.com}}, udp: true}
+  - {name: "[SS] 🇪🇺 欧洲 V2CROSS.COM", server: 147.78.0.182, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
   - {name: "[SS] 🇫🇷 _FR_法国", server: 51.158.54.209, port: 443, type: ss, cipher: aes-256-cfb, password: asdKkaskJKfnsa, udp: true}
+  - {name: "[Vless] 🇫🇷 法国 巴黎Online S.A.S", server: 51.158.206.12, port: 23576, type: vless, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: "01" }, servername: fuck.rkn, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1", server: mrb2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mrb2.shabijichang.com}}, udp: true}
   - {name: "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2", server: ld2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: ld2.shabijichang.com}}, udp: true}
-  - {name: "[SS] 🇬🇧 英国 V2CROSS.COM", server: 171.22.254.129, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: "[SS] 🇬🇧 英国 V2CROSS.COM 2", server: 185.237.185.89, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
-  - {name: "[Vless] 🇭🇰 香港 特别行政区", server: 47.251.25.74, port: 443, type: vless, uuid: 18805ff3-b420-45de-af18-93be14024ae8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: H56cOJhw0xw76lDEpt7IuJJmVGemK6_CK34KtHwDMX8}, servername: www.amazon.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM", server: 37.46.19.79, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1", server: 104.17.18.26, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.109420.xyz}}, udp: true}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2", server: 104.26.8.44, port: 80, type: vmess, uuid: 5180444a-4756-43b4-960b-49eb9052e4e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: a.109420.xyz}}, udp: true}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3", server: mm2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm2.shabijichang.com}}, udp: true}
   - {name: "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4", server: mm3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: mm3.shabijichang.com}}, udp: true}
-  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM", server: 31.58.76.27, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2", server: 31.56.228.7, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3", server: 31.57.61.76, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4", server: 31.57.62.145, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM", server: 94.183.184.239, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳 @WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2", server: 31.57.105.242, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[Vless] 🇱🇹 立陶宛 V2CROSS.COM", server: 89.116.250.40, port: 8880, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed", headers: {Host: vms.lifetime10.workers.dev}}, udp: true}
   - {name: "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰", server: 45.199.138.191, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696251522438, headers: {Host: www.42077230.xyz}}, udp: true}
-  - {name: "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM", server: 46.8.236.104, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2", server: 77.238.236.134, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3", server: 195.211.124.140, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[Trojan] 🇳🇴 挪威 V2CROSS.COM", server: 138.124.107.101, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[SS] 🇵🇱 波兰 V2CROSS.COM", server: 141.98.101.179, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM", server: 91.199.50.37, port: 443, type: vless, uuid: 43488128-319e-f480-64ea-0acdc712e2a8, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: kkRsTNjRh_XrrTM6eZllllldzoL5Z9IqlBkDtmYLMhw, short-id: "c906f73d3ba8211f" }, servername: www.alibaba.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM", server: 178.236.16.98, port: 35728, type: vless, uuid: a00d89f6-ab7e-4e30-a5e5-54c701d62c93, tls: true, tfo: false, skip-cert-verify: true, reality-opts: {public-key: vhUFNoFcvtZAVMo8y5K5eU2V43m5q6yjmWIhp5RkFng, short-id: "69a2" }, servername: yahoo.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM", server: 213.232.204.65, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
   - {name: "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯", server: jd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jd3.shabijichang.com}}, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_1", server: 206.168.190.219, port: 2082, type: vmess, uuid: e31ca750-71f7-11ee-b920-1239d0255272, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /vmws}, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_2", server: wnd2.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd2.shabijichang.com}}, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_3", server: 45.199.138.186, port: 30000, type: vmess, uuid: 4ec0ae62-de09-4029-904a-0313d4628ecf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /path/1696682720138, headers: {Host: www.19229362.xyz}}, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_4", server: wnd3.shabijichang.com, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: wnd3.shabijichang.com}}, udp: true}
   - {name: "[VMess] 🇺🇸 _US_美国_5", server: 104.21.75.246, port: 80, type: vmess, uuid: c458695d-6908-45c3-9512-e0c46418454c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sbl2.shabijichang.com}}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 3COM公司企业网", server: 152.67.8.205, port: 80, type: vmess, uuid: 9db4c708-aef8-4359-821b-38e47990be0d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: "[Vless] 🇺🇸 美国 CloudFlare节点", server: 104.20.6.134, port: 443, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, alpn: [http%2F1.1], tfo: false, skip-cert-verify: true, servername: sni.111000.v6.navy, client-fingerprint: chrome, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.v6.navy}}, udp: true}
-  - {name: "[SS] 🇺🇸 美国 DXC Technology", server: 20.87.107.99, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: akMKO9KXowxFcx5A, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM", server: 144.31.82.175, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM 2", server: 45.144.234.149, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM 3", server: 198.204.227.171, port: 2053, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM 4", server: 144.31.57.146, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国 V2CROSS.COM 5", server: 152.53.153.158, port: 8443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: true, network: ws, ws-opts: {path: /trTelegram🇨🇳+@WangCai2, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true}
+  - {name: "[Vless] 🇺🇸 美国 CloudFlare节点", server: 104.18.125.5, port: 80, type: vless, uuid: 17ebee4e-97ea-4cad-8737-cc228478ca9d, tls: false, tfo: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: lively-brook-c471.nedena3319.workers.dev}}, udp: true}
+  - {name: "[Vless] 🇺🇸 美国 CloudFlare节点 2", server: 104.20.6.134, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, tfo: false, skip-cert-verify: true, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, udp: true}
+  - {name: "[Vless] 🇺🇸 美国 CloudFlare节点 3", server: cf6.danfeng.eu.org, port: 2087, type: vless, uuid: bafacd98-136a-4530-838d-4e5c51838dac, tls: true, tfo: false, skip-cert-verify: true, servername: juzi8186.qea.ccwu.cc, client-fingerprint: firefox, network: ws, ws-opts: {path: "/info/readme/items/juzibaipiao?ed=2560", headers: {Host: juzi8186.qea.ccwu.cc}}, udp: true}
+  - {name: "[SS] 🇺🇸 美国 V2CROSS.COM", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: "[Vless] 🇺🇸 美国 V2CROSS.COM", server: 159.246.55.238, port: 2096, type: vless, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, tls: true, tfo: false, skip-cert-verify: true, servername: sni.jpmj.dev, network: ws, ws-opts: {path: /, headers: {Host: sni.jpmj.dev}}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 东北部七州电讯网", server: v30.hdacd.com, port: 30830, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 🇿🇦 南非 V2CROSS.COM", server: 156.38.168.58, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true}
 proxy-groups:
   - name: 🚀 全球互联
     type: select
@@ -59,44 +59,44 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: 🎥 Netflix
     type: select
     proxies:
@@ -105,44 +105,44 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: 📹 Youtube
     type: select
     proxies:
@@ -151,44 +151,44 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: ▶️ Disney+
     type: select
     proxies:
@@ -197,44 +197,44 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -244,44 +244,44 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: 📲 Telegram
     type: select
     proxies:
@@ -296,7 +296,6 @@ proxy-groups:
     proxies:
       - DIRECT
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
-      - "[Vless] 🇭🇰 香港 特别行政区"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -306,48 +305,48 @@ proxy-groups:
       - 🇺🇲 美国
       - 🇹🇼 台湾
       - 🇸🇬 新加坡
-      - "[Vless] 乌克兰 V2CROSS.COM"
-      - "[SS] 非洲地区 V2CROSS.COM"
+      - "[SS] 乌克兰 V2CROSS.COM"
+      - "[Hysteria2] ️6@oneclickvpnkeys"
       - "[VMess] 🇨🇦 _CA_加拿大"
       - "[SS] 🇨🇭 _CH_瑞士"
       - "[VMess] 🇨🇳 _TW_台湾->🇺🇸_US_美国"
       - "[VMess] 🇩🇪 _US_美国->🇩🇪_DE_德国"
+      - "[SS] 🇪🇺 欧洲 V2CROSS.COM"
       - "[SS] 🇫🇷 _FR_法国"
+      - "[Vless] 🇫🇷 法国 巴黎Online S.A.S"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_1"
       - "[VMess] 🇬🇧 _US_美国->🇬🇧_GB_英国_2"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM"
-      - "[SS] 🇬🇧 英国 V2CROSS.COM 2"
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - "[Trojan] 🇮🇪 爱尔兰 V2CROSS.COM"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_1"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_2"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_3"
       - "[VMess] 🇮🇳 _US_美国->🇮🇳_IN_印度_4"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM"
       - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 2"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 3"
-      - "[Trojan] 🇮🇷 伊朗 V2CROSS.COM 4"
+      - "[Vless] 🇱🇹 立陶宛 V2CROSS.COM"
       - "[VMess] 🇳🇱 _US_美国->🇳🇱_NL_荷兰"
+      - "[Trojan] 🇳🇴 挪威 V2CROSS.COM"
+      - "[SS] 🇵🇱 波兰 V2CROSS.COM"
+      - "[Vless] 🇷🇴 罗马尼亚 V2CROSS.COM"
+      - "[Vless] 🇷🇺 俄罗斯 V2CROSS.COM"
       - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 2"
-      - "[Trojan] 🇷🇺 俄罗斯 V2CROSS.COM 3"
       - "[VMess] 🇸🇦 _US_美国->🇸🇦_SA_沙特阿拉伯"
       - "[VMess] 🇺🇸 _US_美国_1"
       - "[VMess] 🇺🇸 _US_美国_2"
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
+      - "[SS] 🇿🇦 南非 V2CROSS.COM"
   - name: 🇭🇰 香港
     type: select
     proxies:
-      - "[Vless] 🇭🇰 香港 特别行政区"
+      - DIRECT
   - name: 🇯🇵 日本
     type: select
     proxies:
@@ -370,14 +369,12 @@ proxy-groups:
       - "[VMess] 🇺🇸 _US_美国_3"
       - "[VMess] 🇺🇸 _US_美国_4"
       - "[VMess] 🇺🇸 _US_美国_5"
-      - "[VMess] 🇺🇸 美国 3COM公司企业网"
       - "[Vless] 🇺🇸 美国 CloudFlare节点"
-      - "[SS] 🇺🇸 美国 DXC Technology"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 2"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 3"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 4"
-      - "[Trojan] 🇺🇸 美国 V2CROSS.COM 5"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 2"
+      - "[Vless] 🇺🇸 美国 CloudFlare节点 3"
+      - "[SS] 🇺🇸 美国 V2CROSS.COM"
+      - "[Vless] 🇺🇸 美国 V2CROSS.COM"
+      - "[VMess] 🇺🇸 美国 东北部七州电讯网"
   - name: 🇹🇼 台湾
     type: select
     proxies:
