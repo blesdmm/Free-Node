@@ -6,29 +6,45 @@ on:
     branches:
       - main
   schedule:   
-    - cron: '0 * * * *'   #国际标准时间，北京时间+8，即下午1点钟
-
-
+    - cron: '0 * * * *'   # 国际标准时间，每小时的第 0 分钟执行一次
+  workflow_dispatch:      # 【添加这一行】允许在 GitHub 网页上手动点击运行按钮
 
 jobs:
   run-csjs:
     runs-on: ubuntu-latest
+    # 【修复重点】必须显式授予当前工作流对你仓库的写入和推送权限
+    permissions: write-all
+    
     steps:
-      - uses: actions/checkout@main  #采用main分支下的
+      - name: Checkout Repository
+        uses: actions/checkout@v4 # 推荐换成更稳定的官方 v4 版本
+        with:
+          persist-credentials: false
+          fetch-depth: 0          # 完整拉取历史，这是 git pull --rebase 能正常运行的前提
+
       - name: Download the subscribe
         run: |
+          # 确保脚本有执行权限并运行
+          chmod +x ./run.sh
           sh ./run.sh
+
       - name: Commit Changes
         run: |
-         git config --global user.email flik@92coco.cn
-         git config --global user.name Flik
-         git add .
-         git commit -m"由github actions推送,日期:`date`"
-         git pull --rebase
+          git config --global user.email "flik@92coco.cn"
+          git config --global user.name "Flik"
+          git add .
+          
+          # 【修复重点】使用 --allow-empty。即使 run.sh 没带来任何新数据，工作流也不会报错中断
+          git commit --allow-empty -m "由github actions推送,日期:`date`"
+          
+          # 【修复重点】显式指定从 origin 的 main 分支进行变基拉取，防止找不到上游
+          git pull --rebase origin main
+
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.TOKEN }}
+          # 【修复重点】改用官方自带的 GITHUB_TOKEN，不需要你自己去 Settings 里面配变量了
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: main
           force_with_lease: true
           directory: .
